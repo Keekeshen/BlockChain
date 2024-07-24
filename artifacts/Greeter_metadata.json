@@ -6,20 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"constant": true,
-				"inputs": [],
-				"name": "value",
-				"outputs": [
-					{
-						"name": "",
-						"type": "string"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"constant": false,
 				"inputs": [
 					{
@@ -60,6 +46,12 @@
 				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			}
 		],
 		"devdoc": {
@@ -71,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Exe2modify.sol": "Greeter"
+			"Greeter.sol": "Greeter"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -82,10 +74,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"Exe2modify.sol": {
-			"keccak256": "0x22a9b887ffdb86e930e6f195be83cd15bf029b4bc7a703c2617f92c18d5c5575",
+		"Greeter.sol": {
+			"keccak256": "0x33c759a9550c75f4e9ca308c6e0b40a8a84232abb21b4944db87a31acf5e0f43",
 			"urls": [
-				"bzzr://78050ab3d14b6614f7b776d05955f43e6753ba6c7bd3b6668a3fd4161ece1187"
+				"bzzr://539a41c9a0dfe2ecfe01993b8f46813c4269d8dbcf10c71ef2cb30494660381d"
 			]
 		}
 	},
